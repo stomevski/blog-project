@@ -1,0 +1,53 @@
+
+.nav-main{
+    background:rgb(100, 100, 100);
+    height: 120px;
+}
+
+.nav-ulist{
+    margin:0;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.nav-a:hover,
+.nav-a:active{
+
+    border-bottom: 8px solid white ;
+
+}
+
+
+.nav-ulist li {
+
+display: inline-block;
+margin: 1rem;
+
+}
+
+.nav-li-home{
+    text-align: left;
+}
+
+.nav-li-create-blog{
+    float: right;
+}
+
+.nav-li-about{
+    float : right;
+}
+
+.nav-a-active{
+
+    background: rgb(125, 125, 125);
+
+}

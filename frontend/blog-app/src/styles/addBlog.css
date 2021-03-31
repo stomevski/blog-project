@@ -1,0 +1,82 @@
+.add-blog-label-title,
+.add-blog-label-snippet,
+.add-blog-label-text{
+
+text-align: center;
+font-size: 1.8rem;
+font-weight: bolder;
+}
+
+.add-blog-error-handler{
+
+text-align: center;
+color: red;
+font-weight: bold;
+font-size: 1.5rem;
+margin-top: 2rem;
+
+}
+
+
+.add-blog-input-title,
+.add-blog-input-snippet{
+    display: inline-block;
+    margin: 0 auto;
+    background: rgb(231, 231, 231);
+    padding: 0.8rem;
+    width: 55%;
+    height: 40px;
+    font-size: 2rem;
+    border: 2px solid black;
+}
+
+.add-blog-input-text{
+    resize: none;
+    width: 55%;
+    background: rgb(231, 231, 231);
+    padding: 0.8rem;
+    font-size: 2rem;
+    height: 300px;
+    border: 2px solid black;
+}
+
+Form{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.add-blog-message-sent{
+    text-align: center;
+    margin-top: 3rem;
+    color:rgb(100, 100, 100);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
+    
+}
+
+.add-blog-button{
+
+    display: block;
+    margin: 5rem auto;
+    font-family: inherit;
+    font-size: 1.5rem;
+    color: black;
+    background: rgb(231, 231, 231);
+    border: 2px solid black;
+    padding: 1rem;
+    cursor:pointer;
+    border-radius: 20px;
+    outline: none;
+
+}
+
+.add-blog-button:hover
+{
+
+    background: white;
+    color: rgb(56, 56, 56);
+    
+
+}
+

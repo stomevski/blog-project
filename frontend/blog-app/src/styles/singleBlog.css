@@ -1,0 +1,62 @@
+.single-blog-loading,
+.single-blog-error
+{
+
+    text-align: center;
+    margin-top: 10rem;
+    color:rgb(100, 100, 100);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
+
+}
+
+
+.main-single-blog{
+    position: relative;
+    width: 90%;
+    margin: 5rem auto;
+    text-align: center;
+    border : 5px solid black;
+    background: rgb(199, 199, 199);
+}
+
+.single-blog-title,
+.single-blog-snippet,
+.single-blog-text{
+padding: 1rem;
+word-wrap: break-word;
+}
+
+.single-blog-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 5rem;
+}
+
+.single-blog-snippet{
+    font-size: 1.8rem;
+}
+
+.single-blog-text{
+
+font-size: 1.4rem;
+
+
+}
+
+.single-blog-delete{
+position: absolute;
+top:1rem;
+right: 1rem;
+height: 50px;
+width: 50px;
+padding: 0.5rem;
+
+}
+
+.single-blog-delete:hover{
+
+border-bottom: 8px solid red;
+cursor: pointer;
+}

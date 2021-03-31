@@ -1,0 +1,15 @@
+.footer-main{
+position: absolute;
+bottom: 0;
+width: 100%;
+top: calc(100% + 50px);
+
+}
+
+.footer-p{
+background-color: black;
+color: rgb(100, 100, 100);
+text-align: center;
+padding: 1rem;
+margin: 0px;
+}
