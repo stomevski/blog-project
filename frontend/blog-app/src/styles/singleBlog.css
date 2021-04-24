@@ -54,8 +54,19 @@ width: 50px;
 padding: 0.5rem;
 
 }
+.single-blog-edit{
+    position: absolute;
+    top:1rem;
+    right: 6rem;
+    height: 50px;
+    width: 50px;
+    padding: 0.5rem;
+    
+}
 
-.single-blog-delete:hover{
+.single-blog-delete:hover,
+.single-blog-edit:hover
+{
 
 border-bottom: 8px solid red;
 cursor: pointer;

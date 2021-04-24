@@ -6,7 +6,7 @@ const { json } = require('express');
 const app = express();
 
 app.use(express.json());
-app.use(express.urlencoded());
+app.use(express.urlencoded({ extended : false}));
 app.use(cors());
 
 app.listen(4000,'localhost', () => {
@@ -70,3 +70,27 @@ Mongo.findByIdAndDelete(req.params.del)
 })
 
 })
+
+app.get('/edit/:id', (req, res) => {
+
+    Mongo.findById(req.params.id)
+    .then((result) => {
+        res.json(result);
+    })
+    .catch((err) => {
+        res.send(err);
+    })
+    
+ })
+
+ app.post('/edit/:id', (req, res) => {
+
+    Mongo.findByIdAndUpdate({_id : req.params.id},{title : req.body.title, snippet : req.body.snippet, text : req.body.text})
+    .then((result) => {
+        res.json(result);
+    })
+    .catch((err) => {
+        res.send(err);
+    })
+    
+ })
